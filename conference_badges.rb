@@ -25,4 +25,5 @@ def printer(attendees)
     rooms.each_with_index do |room, index|
         puts badges[index]
         puts room
+    end
 end
