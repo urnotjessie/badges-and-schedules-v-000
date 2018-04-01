@@ -21,6 +21,5 @@ end
 
 def printer(attendees)
     rooms = assign_rooms(attendees)
-    rooms.each { |room| puts room}
-    end
+    rooms.each { |room| puts room }
 end
